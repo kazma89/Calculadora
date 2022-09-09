@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body{
+    background-color: aquamarine;
+}
+#main{
+    background-color: #c3cbd6;
+    box-shadow: -5px -10px #888888;
+    width: 300px;
+    height: 320px;
+    margin: 100px auto;
+    padding-top: 35px;
+    padding-left: 50px;
+    border-radius: 15px;
+}
+
+#display{
+    height:40px;
+    width: 170px;
+    font-family: 'Audiowide', cursive;
+    font-size: 25px;
+    font-style: italic;
+    text-align: right;
+    margin: 0 5px;
+}
+
+.numero{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    margin: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* para darle efecto cuando el mouse pasa por el 
+elemento */
+.numero:hover{ 
+    background-color:aliceblue;
+    font-weight: 900;
+    scale: 1.1;
+}

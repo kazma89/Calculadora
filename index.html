@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <section id="main">
+        <div class="main-content">
+            <form id="calculadora">
+                <input type="text" id="display" placeholder= "0" class="display">
+                <button type="button" class="numero" id="" onclick="borrar()">AC</button>
+                <div class="numeros">
+                    <button type="button" class="numero" id="" onclick="boton('9')">9</button>
+                    <button type="button" class="numero" id="" onclick="boton('8')">8</button>
+                    <button type="button" class="numero" id="" onclick="boton('7')">7</button>
+                    <button type="button" class="numero" id="" onclick="multiplicar()">*</button>
+                    <br>
+                    <button type="button" class="numero" id="" onclick="boton('6')">6</button>
+                    <button type="button" class="numero" id="" onclick="boton('5')">5</button>
+                    <button type="button" class="numero" id="" onclick="boton('4')">4</button>
+                    <button type="button" class="numero" id="" onclick="dividir()">/</button>
+                    <br>
+                    <button type="button" class="numero" id="" onclick="boton('3')">3</button>
+                    <button type="button" class="numero" id="" onclick="boton('2')">2</button>
+                    <button type="button" class="numero" id="" onclick="boton('1')">1</button>
+                    <button type="button" class="numero" id="" onclick="sumar()">+</button> 
+                    <br>
+                    <button type="button" class="numero" id="" onclick="boton('0')">0</button>
+                    <button type="button" class="numero" id="" onclick="boton('.')">.</button>
+                    <button type="button" class="numero" id="" onclick="igual()">=</button>
+                    <button type="button" class="numero" id="" onclick="restar()">-</button> 
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="script1.js" type="text/javascript"></script>
+</body>
+</html>
